@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цветные блоки</title>
+    <style>
+        div
+        {
+            display: inline-block;
+            margin: 10px;
+            margin-top: 20px;
+            height: 100px;
+            width: 100px;
+        }
+        .a1
+        {
+            margin-left:70px ;
+            background: linear-gradient(to top, red 20%, blue 80%);
+        }
+        .a2
+        {
+            background: repeating-linear-gradient(45deg, red, red 10px, blue 10px, blue 20px);
+        }
+        .a3
+        {
+            background: radial-gradient(lightgreen, green);
+        }
+        .a4
+        {
+            background: repeating-radial-gradient(circle, yellow, yellow 6px, green 6px, green 10px);
+        }
+        .a5
+        {
+          background: radial-gradient(lightgreen, green, transparent), linear-gradient(to top, red 20%, blue 80%, black);
+
+        }
+        .a6
+        {
+          background: linear-gradient(to right, red 20%, blue 40%, transparent), linear-gradient(to top,violet 40%,green 80%);
+        }
+  
+    </style>
+</head>
+<body>
+    <div class="a1"></div>
+    <div class="a2"></div>
+    <div class="a3"></div>
+    <div class="a4"></div>
+    <div class="a5"></div>
+    <div class="a6"></div>
+</body>
+</html>

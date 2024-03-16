@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="13.xsl"?>
+<root>
+    <student>
+        <firstname>Виолетта</firstname>
+        <lastname>Бабич</lastname>
+        <mark>10</mark>
+    </student>
+    <student>
+        <firstname>Виктория</firstname>
+        <lastname>Угоренко</lastname>
+        <mark>4</mark>
+    </student>
+    <student>
+        <firstname>Александр</firstname>
+        <lastname>Шутро</lastname>
+        <mark>1</mark>
+    </student>
+
+</root>

@@ -1,0 +1,37 @@
+ table 
+{
+    border: white;
+    border-collapse: separate;
+    text-align: center;
+    border-spacing: 5px;
+color: white;
+}
+caption
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+th, td
+{
+    border:1px black double;
+}
+tr~td
+{
+   background-color: #4646cf;
+}
+tr :nth-child(3n)
+{
+    background-color: violet;
+}
+tr :nth-child(even)
+{
+    background-color: lightskyblue;
+}
+tr :last-child
+{
+    background-color: green;
+}
+tr :first-child
+{
+    color: black;
+}

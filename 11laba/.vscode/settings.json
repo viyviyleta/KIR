@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "liveServer.settings.formats": [
+        {
+            "format" : "expanded",
+            "extensionName": ".css", 
+            "savePath": "~/../css",
+            "savePathReplacementPairs": null
+        }
+    ],
+    "liveSassCompile.settings.generateMasp": false,
+    "window.zoomLevel": 0,
+}

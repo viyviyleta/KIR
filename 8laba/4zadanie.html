@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .menu li {
+            display: inline-block;
+            background: url(facultet.png) no-repeat;
+            margin-right: 50px;
+            width: 200px;
+            text-align: center;
+            font-size: 25px;
+            border: black 1px solid;
+            height: 30px;
+            background-size: 32px;
+            position: relative;
+        }
+
+        .submenu ul {
+            display: none;
+            position: absolute;
+
+        }
+
+        #fit:hover {
+            background-position-y: -32px;
+            background-color: crimson;
+        }
+
+        #fit:hover ul {
+            display: block;
+        }
+
+        #fit:hover .kafedra li {
+            background-image: none;
+            margin-left: -40px;
+        }
+
+        #pim:hover {
+            background-position-y: -96px;
+            background-color: dodgerblue;
+            color: yellow;
+        }
+
+        #htit:hover {
+            background-position-y: -64px;
+            background-color: forestgreen;
+            color: yellow;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <ul class="menu">
+        <li id="belstu">БГТУ</li>
+        <li class="submenu" id="fit"> <a href="https://it.belstu.by/">ИТ</a>
+            <ul class="kafedra">
+                 <li>
+                        <a href="https://it.belstu.by/abiturientu/informacionnye-sistemy-i-tehnologii/">Кафедра ИСиТ</a>
+                    </li>
+                    <li>
+                        <a href="https://it.belstu.by/abiturientu/dizajn-jelektronnyh-i-veb-izdanij/">Кафедра ИиВД</a>
+                    </li>
+                    <li>
+                        <a href="https://it.belstu.by/abiturientu/programmnoe-obespechenie-informacionnyh-tehnologij/">Кафедра ПИ</a>
+                    </li>
+            </ul>
+        </li>
+        <li id="pim">ПиМ</li>
+        <li id="htit">ХТиТ</li>
+    </ul>
+
+</body>
+
+</html>

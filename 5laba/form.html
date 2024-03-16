@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="600">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+       <link href="form.css" rel="stylesheet" media="all">
+</head>
+<body>
+    <h1 style="color: rgba(255,255,255,1);">Регистрация постоянного клиента</h1>
+    <form>
+        <p> 
+            <span>Фамилия:</span><input type="text" name="surname">
+        </p>
+        <p>
+            <span>Имя</span><input type="text" name="name">
+        </p>  
+        <p>
+            <span>Отчество:</span><input type="text" name="patronymic">
+        </p>
+        <p>
+            <span>Ваш возраст</span><input type="number" name="number">
+        </p>
+        <p>
+            <span>Ваш пол</span>
+           
+                <input class="in" type="checkbox" name="men" id="name">
+                <span id="#name">мужской</span>
+                <input class="in" type="checkbox" name="women" style="margin-left: -145px;">
+                <span>женский</span>
+        </p> 
+        <p>
+            <span>Email</span><input type="email" name="email">
+        </p>
+        <p>
+            <span style="margin-bottom: 15px;">Страна проживания:</span><input type="text" name="country" style="margin-bottom:-30px;">
+        </p>
+        <p>
+            <div class="qa">
+            <span>Откуда вы узнали о нас?</span>
+            <div class="di">
+            <select name="reason" style="background-color: aliceblue;  height: 20px;" >
+                <option value="">Выберите вариант</option>
+                <option value="1">Увидели в интернете</option>
+                <option value="2">Посоветовали знакомые</option>
+                <option value="3">Учился брат\сестра</option>
+                <option value="4">Из учебника абитуриента</option>
+            </select>
+            </div>
+            </div>
+        </p>  
+        <p>
+            <span>Дата заполнения</span><input type="date" name="date">
+        </p>            
+        <div class="input-div" style="margin-left: 220px;">
+            <input class="b1" type="submit" name="submit_btn" value="Регестрация">
+            <input class="b1" type="reset" name="submit_res" value="Отмена">
+        </div>
+    </form>
+</body>
+</html>

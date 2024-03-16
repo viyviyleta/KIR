@@ -1,0 +1,54 @@
+.ret{
+    display: inline-block;
+}
+span{
+    font-size: 30px;
+}
+.grid1{
+display: grid;
+grid-template-columns: 50px 200px 200px;
+grid-template-rows: 300px;
+grid-gap: 5px;
+margin-top: 50px;
+}
+.verticalTitle {
+    text-orientation:upright;
+    writing-mode:vertical-lr;
+}
+.grid1 > div{
+    border: 1px black solid;
+}
+.head1{
+    background-color: plum;
+}
+.blok1{
+    background-color: palevioletred;
+}
+.blok2{
+    background-color: palevioletred;
+}
+
+
+.grid2 > div{
+    border: 1px black solid;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 200px 200px 50px;
+    margin-top: 50px;
+    grid-gap: 5px;
+}
+.Blok1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: lightgreen;
+}
+.Blok2{
+    background-color: #55b955;
+}
+#verticalTitle{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    background-color: lightseagreen ;
+}

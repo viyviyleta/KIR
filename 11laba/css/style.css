@@ -1,0 +1,149 @@
+aside form .info:focus, header .nav ul a:hover {
+  background-color: rgb(247, 94, 183);
+  color: white;
+}
+
+h1 {
+  font-size: 24px;
+  color: rgb(247, 94, 183);
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  color: rgb(255, 52, 194);
+  /*text-align: center;*/
+}
+
+.disp {
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  background: rgb(255, 162, 243);
+  background: linear-gradient(45deg, rgb(253, 162, 255), rgb(248, 248, 248) 20%, rgb(248, 248, 248) 42%);
+}
+
+img {
+  border-radius: 6px;
+}
+
+#butrf {
+  color: rgb(255, 162, 239);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+}
+header .logo {
+  width: 20%;
+}
+header .nav ul {
+  display: flex;
+  list-style: none;
+  width: 1100px;
+}
+header .nav ul li {
+  display: inline-block;
+  margin-top: 30px;
+}
+header .nav ul a {
+  text-decoration: none;
+  color: black;
+  padding: 20px 55px;
+  margin-left: 40px;
+  margin-right: 55px;
+  width: 300px;
+  font-size: 1.2em;
+  border-radius: 30px;
+  box-shadow: 1px 3px 7px rgb(247, 94, 183);
+  text-align: center;
+}
+header .nav ul a:hover {
+  box-shadow: inset 3px 3px 7px white;
+  font-size: 1.2em;
+}
+
+main {
+  width: 70%;
+}
+main .gallery {
+  text-align: center;
+}
+main .gallery img {
+  width: 20%;
+  margin: 20px;
+}
+main .texts {
+  display: flex;
+  flex-direction: row;
+}
+main .texts p {
+  font-size: 19px;
+  text-align: justify;
+  padding: 3px;
+  margin: 5px;
+}
+
+aside {
+  background: rgb(255, 162, 243);
+  background: radial-gradient(circle, rgb(253, 162, 255) 0%, rgb(248, 248, 248) 37%, rgb(248, 248, 248) 55%);
+  width: 25%;
+}
+aside .asbl1, aside .asbl2 {
+  display: flex;
+  flex-direction: row;
+}
+aside .asbl1 img, aside .asbl2 img {
+  width: 40%;
+  margin: 10px 5px;
+}
+aside .asbl1 p, aside .asbl2 p {
+  width: 60%;
+  text-align: center;
+  font-size: 16px;
+}
+aside form {
+  text-align: center;
+}
+aside form .info {
+  border-radius: 4px;
+  border: 1px solid black;
+  background-color: rgb(248, 248, 248);
+  width: 80%;
+  height: 30px;
+  margin: 5px;
+}
+aside form .info:focus {
+  border: 1px solid white;
+}
+aside form .info:focus::-moz-placeholder {
+  color: rgb(253, 162, 255);
+}
+aside form .info:focus:-ms-input-placeholder {
+  color: rgb(253, 162, 255);
+}
+aside form .info:focus::placeholder {
+  color: rgb(253, 162, 255);
+}
+aside form button {
+  width: 100px;
+  height: 20px;
+  background-color: rgb(248, 248, 248);
+  color: rgb(60, 6, 54);
+  margin: 5px;
+  border-radius: 10px;
+  border-top: 1px solid rgb(60, 6, 54);
+  border-left: 1px solid rgb(60, 6, 54);
+  border-bottom: none;
+  border-right: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  border-top: 2px solid rgb(254, 0, 199);
+  color: rgb(60, 6, 54);
+}/*# sourceMappingURL=style.css.map */

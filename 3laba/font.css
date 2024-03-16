@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Caveat";
+    src:local("Caveat"),
+     url('font/Caveat/Caveat.ttf') format('ttf'),
+    /* url('font/Caveat/Caveat.svg') format('svg'); */
+}
+@font-face {
+  font-family: 'Celestina';
+  src: local('celestina'),
+  /* url('font/celestina/Celestina.woff2') format('woff2'), 
+  url('font/celestina/Celestina.woff') format('woff'),  */
+  url('font/celestina/Celestina.ttf') format('ttf');
+}
+@font-face {
+  font-family: 'FoglihtenNo06';
+  src: local('FoglihtenNo06'), 
+  /* url('font/fog6/foglihtenno06.woff2') format('woff2'), 
+  url('font/fog6/foglihtenno06.woff') format('woff'),  */
+  url('font/fog6/foglihtenno06.ttf') format('ttf');
+}
+  h1
+  {
+    font-family:"Caveat";
+    margin-bottom: -15px;
+    text-align: center;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size: 45px; 
+  }  
+  h2
+  {
+    font-family:"Celestina";
+    margin-bottom: 1.2em;
+    margin-top: 0.2rem;
+    margin-block-start: 25px;
+    text-align: left;
+  }
+
+  p
+  {
+    font-family: "FoglihtenNo06";
+    margin-top: 25px;
+    text-align: justify;
+    margin: 0%;
+    word-spacing:1px;
+    line-height: 200%;
+    font-size: 20px;
+  }
+
+  *{background-color: hsla(275, 100%, 10%, 1);
+  color: lightcoral;}
+
+  p:first-letter
+  {
+    font-weight: bold;
+    color: white;
+    font-size: 45px;
+  }
+  
+  ol
+  {
+    margin-top: -20px;
+  }
+  ol li{
+    color: aqua;
+  }
+
+  ol li span {
+    color:lightcoral; 
+  }

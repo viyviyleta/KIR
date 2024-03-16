@@ -1,0 +1,49 @@
+div
+{
+    margin: 15px;
+}
+.a1
+{
+    padding: 5px;
+    border-left: 5px solid #007BA7;
+    border-right: 5px solid #007BA7;
+}
+.a2
+{
+    border-top: 5px solid rgb(229 43 80);
+    border-bottom: 5px outset lightblue;
+    border-left: 5px outset lightblue;
+    border-right: 5px outset lightblue;
+}
+.a3
+{
+    border: 1px dotted orange;
+}
+.a4{
+    border-top: 2px double darkblue;
+    border-bottom: 2px double darkblue;
+    border-left:  dashed darkviolet;
+    border-right:  dashed  darkviolet;
+
+}
+.a5{
+    border: 5px double #b3446c;
+}
+.a6{
+    border-top: 1px dashed #808000;
+    border-bottom: #ff7518 3px solid;
+}
+.a7{
+    border-left: 5px #CC7722 double;
+    border-bottom: 5px #CC7722 double;
+}
+.a8{
+    border-top:5px #B5A642 ridge;
+    border-right: 5px #B5A642 ridge;
+}
+.a9{
+    border-bottom: 5px dotted rgb(0 40 0);
+    border-left: 5px dotted rgb(0 40 0);
+    border-right: 5px dotted  rgb(0 40 0);
+
+}

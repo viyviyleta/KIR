@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        p{
+            display: block;
+            width: 900px;
+        }
+        aside {
+            margin-top: 50px;
+            margin-right: 20px;
+            float: right;
+            width: 20%;
+            background-color: #333;
+            padding: 20px;
+            color: red;
+        }
+        ul.nav {list-style-type: none;}
+        a {
+            display: block;
+            text-decoration: none;
+            margin-bottom: 10px;
+            color: red;
+        }
+        ul.nav a:link{
+            color:  red;
+        }
+        ul.nav a:visited{
+            color:  #8b0000;
+        }
+        ul.nav a:hover{
+            color:  green;
+        }
+        ul.nav a:active{
+            color:  rgb(184, 134, 11);
+        }
+        main {
+            margin-top: -200px;
+            float: left;
+            width: 80%;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <aside>
+        <ul class="nav">
+         <li><a href="D:\KIR\1laba\index.html" class="unvisited">Первая страница</a></li>
+         <li><a href="D:\KIR\3laba\text.html" class="unvisited">Вторая страница</a></li>
+         <li><a href="D:\KIR\7laba\animation.html" class="unvisited">Третья страница</a></li>
+         <li><a href="D:\KIR\6laba\map.html" class="unvisited">Четвёртая страница</a></li>
+        </ul>
+    </aside>
+    <main>
+        <h1>Горизонтальная панель навигации</h1>
+        <p>Создание горизонтальной панели навигации можно 
+            осуществлять по следующим этапам
+            1. Создать, например, маркированный список с классом .nav
+            2. Преобразовать пункты списка в строчные элементы
+            (.nav li {display: inline;}) или в плавающие элементы 
+            (.nav li {float: left;})
+            3. Для ссылок установить display: inline-block и применить 
+            свойства для придания внешнего оформления.
+            При использовании display: inline; справа образуется 
+            промежуток, равный 0.4em, чтобы убрать его необходимо 
+            установить .nav li {margin-right: -4px;}.
+            </p>
+    </main>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="13.1.xsl"?>
+
+<labs>
+	<student>
+		<name>Виолетта</name>
+		<surname>Бабич</surname>
+		<CML>БГТУ</CML>
+		<BAaP>Испанский</BAaP>
+		<SDT>10</SDT>
+		<SPL>10</SPL>
+	</student>
+	<student>
+		<name>Виктория</name>
+		<surname>Угоренко</surname>
+		<CML>БГУ</CML>
+		<BAaP>Математика</BAaP>
+		<SDT>5</SDT>
+		<SPL>7</SPL>
+	</student>
+	<student>
+		<name>Оля</name>
+		<surname>Лускина</surname>
+		<CML>Бгуир</CML>
+		<BAaP>ОАиП</BAaP>
+		<SDT>8</SDT>
+		<SPL>9</SPL>
+	</student>
+	<student>
+		<name>Александр</name>
+		<surname>Шутро</surname>
+		<CML>БГТУ</CML>
+		<BAaP>КЯР</BAaP>
+		<SDT>10</SDT>
+		<SPL>10</SPL>
+	</student>
+</labs>

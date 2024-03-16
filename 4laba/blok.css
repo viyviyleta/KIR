@@ -1,0 +1,99 @@
+.border 
+{
+    padding-top: 90px;
+    border-left: 5px solid brown;
+    border-bottom: 5px solid yellow; 
+    border-right: 5px solid darkblue; 
+    border-top: 5px solid orange;
+    
+}
+div div
+{
+    display: inline;
+    height: 40px;
+    width: 20px;
+    text-align: center;
+    padding:1em;
+    font-size: 30px;
+    margin: 10px auto;
+    margin-left: 10px;
+    margin-bottom: 90px;
+    
+}
+.q1
+{
+    border-width: 10px;
+    border-style: outset;
+    border-color: rgb(255, 0, 0);
+    margin-left: 170px;
+}
+.q2
+{
+    border-width: 10px;
+    border-style: dashed;
+    border-color: rgb(0, 128, 0);
+}
+.q3
+{
+    border-width: 10px;
+    border-style: dotted;
+    border-color: rgb(0, 0, 255);
+}
+.q4
+{
+    border-width: 10px;
+    border-style: double;
+    border-color: rgb(0, 255, 255);
+}
+.q5
+{
+    border-width: 10px;
+    border-style: groove;
+    border-color: rgb(185, 92, 185);
+}
+.q6
+{
+    border-width: 10px;
+    border-style: inset;
+    border-color: rgb(255, 255, 0);
+}
+.q7
+{
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+p span
+{
+    display: block;
+    margin: 5px; 
+    padding: 5px;
+    background-color: #FFA500;
+    border: 2px solid #FF4500; 
+}
+#n1
+{
+    margin-top: 70px;
+    width: 400px;
+    text-align: center;
+    border-style: solid;
+    border-color:#FF7F50 ;
+}
+#n2
+{
+    width: 400px;
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+    border-color:red ;
+    border-radius: 20px/40px;
+    box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+#n3
+{
+    /* width: 400px; */
+    /* text-align: center; */
+    border-style: solid;
+    border-color:#FF6347;
+}

@@ -1,0 +1,45 @@
+img{
+    width: 100px;
+    height: 70px;
+}
+.grid > div{
+    border: 1px black solid;
+}
+.grid {
+    position: absolute;
+    display: grid;
+    grid-template-columns:100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    margin-top: 50px; 
+    grid-gap: 5px; 
+    align-self: center;
+    justify-self: center;
+}
+.img{
+    float: right;
+    height: 120px;
+    width: 120px;
+}
+.grid1{
+    background-image: url(gif.gif);
+    background-size: 100% 100%;
+    grid-column: 4/6;
+    grid-row: 2/4;
+}
+.grid2{
+    display: block;
+    grid-column: 1/3;
+    grid-row: 3/5;
+}
+p{
+    display: block;
+    height: 200px;
+    width: 200px;
+    white-space: pre-line;
+    font-size: 13px;
+    padding: 2px;
+}
+.b1{
+    background-image: url(test-img.jpg);
+    background-size: 100% 100%;
+}

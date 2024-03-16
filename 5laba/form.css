@@ -1,0 +1,57 @@
+*
+{
+    background-color: indigo;
+}
+span
+{
+    display: inline-block;
+    width: 220px;
+    color: rgba(255,255,255,1);
+    font-size: 1.2em;
+}
+input
+{
+    display: inline-block;
+    height: 25px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,.5);
+    color: rgba(255,255,255,1);
+    box-shadow: inset 0 0 10px rgba(255,255,255, .75);
+}
+.in
+{
+    height: 15px;
+    width: 15px;
+}
+.b1
+{
+    
+    width: 120px;
+    background-color: navy;
+    box-shadow: 0 0 4px white;
+}
+input[type="text"]:focus {
+    background-color: black;
+    color: black;}
+
+input[type="number"]:focus {
+    background-color: black;
+    color: black;}  
+    
+section
+{
+    display: inline;
+    background-color: wheat;
+    margin-top:-90px ; 
+    height: 20px;
+}
+option
+{
+    background-color: white;
+}
+.di
+{
+    display: inline-block;
+    margin-top: -200px;
+}

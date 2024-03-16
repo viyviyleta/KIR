@@ -1,0 +1,93 @@
+div{
+    margin: 9px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 2px;
+}
+.zagolovok{
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    background-color: rgb(156, 156, 219);
+}
+.video{
+    width: 35%;
+    background-color: aquamarine;
+}
+.text{
+    width: 30%;
+    background-color: rgb(28, 217, 154);
+}
+.music{
+    width: 30%;
+    background-color: rgb(42, 145, 145);
+}
+video{
+    margin: 10px;
+    margin-bottom: -5px;
+    width: 350px;
+    height: 250px;
+}
+audio{
+    margin: 5px;
+    margin-left: 20px;
+}
+h1{
+    text-align: center;
+}
+p{
+    display: block;
+    font-size: 24px;
+    margin: 5px;
+}
+@media(max-width: 560px)
+{
+  .content div{
+    background-size: 100%;
+  }
+}
+/*zadanie3*/
+div img{
+  width: 250px;
+  height: 250px;
+
+  
+}
+.osn2 figure{
+  margin: 2%;
+  width: auto;
+  height: auto;
+
+ 
+
+
+}
+
+.osn2{
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  margin-top: 10%;    
+
+}
+@media (max-width: 1280px) {
+  div figure{
+      width: 100%;
+  }
+.osn2 figure{
+  display: flex;
+  flex-direction: column;
+}
+  
+}
+
+@media (max-width: 767px){
+  p{
+      color: red;
+  }
+}
+@import url("768-1279.css");
+

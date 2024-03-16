@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Стили для горизонтального меню */
+        .horizontal-menu {
+          display: flex;
+          list-style-type: none;
+          padding: 0;
+        }
+      
+        .horizontal-menu li {
+            display: inline-block;
+            list-style-type: none;
+            width: 100%;
+    text-align: center;
+    font-size: 26px;
+        }
+        .horizontal-menu li ul li{
+            width: 30%;
+            border: black 1px solid;
+        }      
+        /* Стили для мобильного меню */
+        .mobile-menu-icon {
+          display: none;
+          cursor: pointer;
+        }
+      
+        .mobile-menu {
+          display: none;
+          list-style-type: none;
+          padding: 0;
+        }
+      
+        .mobile-menu.active {
+          display: block;
+        }
+        .mobile-menu.active li{
+            margin: 2px;
+            width: 100px;
+            text-align: center;
+            border: black 1px solid;
+        }
+
+        @media screen and (max-width: 600px) {
+          .horizontal-menu {
+            display: none;
+          }
+      
+          .mobile-menu-icon {
+            display: block;
+          }
+        }
+      </style>
+</head>
+<body>
+    <!-- Горизонтальное меню -->
+<ul class="horizontal-menu">
+    <li id="q">Заголовок
+        <ul>
+    <li id="a1">Ячейка 1</li>
+    <li id="a2">Ячейка 2</li>
+    <li id="a3">Ячейка 3</li>
+        </ul>
+    </li>
+  </ul>
+  
+  
+  <div class="mobile-menu-icon" onclick="toggleMobileMenu()">☰ Заголовок</div>
+  
+  
+  <ul class="mobile-menu">
+    <li>Ячейка 1</li>
+    <li>Ячейка 2</li>
+    <li>Ячейка 3</li>
+  </ul>
+  
+  <script>
+    function toggleMobileMenu() {
+      const mobileMenu = document.querySelector('.mobile-menu');
+      mobileMenu.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+table 
+{
+ border-width: 1px; 
+ border-collapse: collapse;
+ text-align: center;
+ border-spacing: 0px;
+}
+.q1
+{
+    background-color: aqua;
+}
+tr :last-child
+{
+    background-color: blueviolet;
+}
+tr
+{
+    text-align: center;
+    font-size: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
