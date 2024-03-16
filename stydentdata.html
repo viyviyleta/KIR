@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Форма регистрации</title>
+    <style>
+        .main-div
+             {
+            width: 400px;
+            text-align: right;
+             }
+        .main-div div 
+             {
+            margin: 7px;
+             }
+        .input-div 
+             {
+            display: inline-block;
+            width: 200px;
+             }
+        input 
+             {
+            display: inline;
+             }
+        button
+             {
+            padding: 5px 100px;
+            margin-top: 20px;
+             }
+    </style>
+</head>
+<body>
+    <h1>Данные студента</h1>
+    <form>
+        <div class="main-div">
+            <span>Имя студента</span>
+            <div class="input-div" >
+                <input type="text" name="name" required="required" placeholder="Обязательно заполнить">
+            </div>
+        </div>
+        <div class="main-div">
+            <span>Отчество студента</span>
+            <div class="input-div">
+                <input type="text" name="patronymic" required="required" placeholder="Обязательно заполнить">
+            </div>
+        </div>
+        <div class="main-div">
+            <span>Фамилия студента</span>
+            <div class="input-div">
+                <input type="text" name="surname" required="required" placeholder="Обязательно заполнить">
+            </div>
+        </div>
+        <div class="main-div">
+            <span>Адрес почты</span>
+            <div class="input-div">
+                <input type="email" name="email">
+            </div>
+        </div>
+        <div class="main-div">
+            <span>Контактный номер</span>
+            <div class="input-div">
+                <input type="number" name="number">
+            </div>
+        </div>
+        <div style="text-align: right; width: 466px;">
+            <span style="display: inline-block; width: 180px;">Какую социальную сеть вы используете?</span>
+            <div style="display: inline-block; width: 230px; margin-left: 30px; padding-right: 20px;">
+                <input type="checkbox" name="VK">
+                <span>VK</span>
+                <input type="checkbox" name="Facebook">
+                <span>Facebook</span>
+                <input type="checkbox" name="Instagram">
+                <span>Instagram</span>
+            </div>
+       
+            </div> 
+       
+            <div style="margin: 20px;">
+                <input type="submit" name="submit_btn" value="Отправить">
+            </div>
+    </form>
+</body>
+</html>
